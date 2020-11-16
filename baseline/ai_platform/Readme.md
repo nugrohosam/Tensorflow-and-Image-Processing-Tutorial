@@ -120,12 +120,6 @@ sudo rm -rf /google/google-cloud-sdk/lib/googlecloudsdk/command_lib/ml_engine/*.
     gcloud ai-platform predict \
     --model $MODEL_NAME \
     --version v1 \
+    
     --json-instances ../test.json
 ```
-
-
-
-
-
-
-
